@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/jsManipulated.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="first">
+            <div class="inner-up">
+                <button id="newGameBtn" class="btn">New Game</button>
+                <h2>PLAYER 1</h2>
+                <div id="score_1" class="score">0</div>
+                <img src="../Images/dice-1.png" id="dice" alt="">
+            </div>
+
+            <div class="inner-down">
+                <span>CURRENT</span>
+                <span id="curr_1">0</span>
+                <button class="btn" id="rollDice">ROLL DICE</button>
+                <button id="holdBtn" class="btn">HOLD</button>
+            </div>
+        </div>
+        <div class="second">
+            <div class="inner-up">
+                <h2>PLAYER 2</h2>
+                <div class="score" id="score_2">0</div>
+            </div>
+
+            <div class="inner-down">
+                <span>CURRENT</span>
+                <span id="curr_2">0</span>
+            </div>
+        </div>
+</body>
+<script src="../JavaScript/variables.js"></script>
+<script src="../JavaScript/diceRoll.js"></script>
+<script src="../JavaScript/holdBtn.js"></script>
+<script src="../JavaScript/newGameBtn.js"></script>
+<script src="../JavaScript/winner.js"></script>
+
+</html>
