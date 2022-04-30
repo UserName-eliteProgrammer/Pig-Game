@@ -9,6 +9,7 @@ firstDiv.style.backgroundColor = "pink";
 secondDiv.style.backgroundColor = "rgb(246, 142, 160)";
 
 function changePlayer() {
+  dice.classList.add("hidden");
   if (turn === 0) {
     turn = 1;
     firstDiv.style.backgroundColor = "rgb(246, 142, 160)";
@@ -23,9 +24,9 @@ function changePlayer() {
 function playFunc(randomVal) {
   // console.log(randomVal);
 
-  dice.classList.remove("hidden");
   dice.src = `../Images/dice-${randomVal}.png`;
-
+  dice.classList.remove("hidden");
+  
   if (turn === 0) {
     if (randomVal === 1) {
       player_0_score.textContent = "0";

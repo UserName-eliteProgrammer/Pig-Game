@@ -25,5 +25,6 @@ function resetCSS() {
 }
 
 newGameBtn.addEventListener("click", () => {
+  turn = 0;
   resetCSS();
 });
