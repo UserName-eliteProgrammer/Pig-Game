@@ -22,8 +22,7 @@ function changePlayer() {
 }
 
 function playFunc(randomVal) {
-  // console.log(randomVal);
-
+  
   dice.src = `../Images/dice-${randomVal}.png`;
   dice.classList.remove("hidden");
   

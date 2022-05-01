@@ -27,11 +27,13 @@ function winnerCSS() {
     firstDiv.style.backgroundColor = "rgb(188, 245, 188)";
     player_0_score.textContent = "Winner";
     player_0_score.style.color = "black";
+    player_1_score.style.color = "black";
 
     secondDiv.style.backgroundColor = "#FF6460";
   } else {
     secondDiv.style.backgroundColor = "rgb(188, 245, 188)";
     player_1_score.textContent = "Winner";
+    player_0_score.style.color = "black";
     player_1_score.style.color = "black";
     firstDiv.style.backgroundColor = "#FF6460";
   }

@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pig-Game</title>
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/jsManipulated.css">
+    <link rel="stylesheet" href="../CSS/mediaQueries.css">
 </head>
 
 <body>
@@ -16,8 +17,8 @@
             <div class="inner-up">
                 <button id="newGameBtn" class="btn">New Game</button>
                 <h2>PLAYER 1</h2>
-                <div id="score_1" class="score">0</div>
-                <img src="../Images/dice-1.png" id="dice" alt="">
+                <div id="score_1" class="score">0      
+                </div>
             </div>
 
             <div class="inner-down">
@@ -27,6 +28,7 @@
                 <button id="holdBtn" class="btn">HOLD</button>
             </div>
         </div>
+
         <div class="second">
             <div class="inner-up">
                 <h2>PLAYER 2</h2>
@@ -38,6 +40,8 @@
                 <span id="curr_2">0</span>
             </div>
         </div>
+    </div>
+    <img src="../Images/dice-1.png" id="dice" alt="Loading...">
 </body>
 <script src="../JavaScript/variables.js"></script>
 <script src="../JavaScript/diceRoll.js"></script>

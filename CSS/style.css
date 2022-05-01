@@ -40,12 +40,12 @@ body {
 
 #dice {
   width: 5%;
-  height: 10%;
-  position: absolute;
-  margin-left: 16.3vw;
-  margin-top: 6vh;
-  box-shadow: 4px 4px 18px rgb(20, 20, 20);
-  border-radius: 2px;
+    height: 10%;
+    position: relative;
+    right: 35%;
+    top: -14%;
+    box-shadow: 4px 4px 18px rgb(20 20 20);
+    border-radius: 2px;
 }
 
 .second {

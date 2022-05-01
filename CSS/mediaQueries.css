@@ -1,0 +1,59 @@
+@media screen and (max-width: 1000px) {
+  .container {
+    height: 45vh;
+    width: 75vw;
+    margin-left: 1.75rem;
+  }
+
+
+  h2{
+    font-size: 70%;
+  }
+  
+  .inner-down {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    height: 26%;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 70, 98);
+    border-radius: 5px;
+    color: white;
+    font-family: "Baloo Bhaina 2", cursive;
+    font-size: 16px;
+  }
+
+  
+
+  #holdBtn {
+    margin-top: 5vh;
+  }
+
+  .btn {
+    border-radius: 100px;
+    width: 10vw;
+    height: 10vw;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 3px 8px rgb(109 104 104);
+    border: none;
+    margin-left: 37vw;
+    position: absolute;
+    margin-top: -8vh;
+    font-size: 65%;
+    font-weight: 500;
+  }
+
+  #dice {
+    width: 8%;
+    height: 5%;
+    position: relative;
+    right: 41%;
+    top: -8%;
+    box-shadow: 2px 2px 10px rgb(20 20 20);
+    border-radius: 2px;
+  }
+}
