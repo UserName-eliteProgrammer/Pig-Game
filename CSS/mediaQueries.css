@@ -5,11 +5,10 @@
     margin-left: 1.75rem;
   }
 
-
-  h2{
+  h2 {
     font-size: 70%;
   }
-  
+
   .inner-down {
     margin-top: 10vh;
     display: flex;
@@ -24,8 +23,6 @@
     font-family: "Baloo Bhaina 2", cursive;
     font-size: 16px;
   }
-
-  
 
   #holdBtn {
     margin-top: 5vh;
